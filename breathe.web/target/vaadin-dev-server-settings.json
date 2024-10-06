@@ -1,0 +1,17 @@
+{
+  "frontendFolder": "C:/Documenti/UniBG/Tesi/BREATHE/breathe.web/./src/main/frontend",
+  "themeFolder": "themes",
+  "themeResourceFolder": "C:/Documenti/UniBG/Tesi/BREATHE/breathe.web/./src/main/frontend/generated/jar-resources",
+  "staticOutput": "C:/Documenti/UniBG/Tesi/BREATHE/breathe.web/target/classes/META-INF/VAADIN/webapp/VAADIN/static",
+  "generatedFolder": "generated",
+  "statsOutput": "C:\\Documenti\\UniBG\\Tesi\\BREATHE\\breathe.web\\target\\classes\\META-INF\\VAADIN\\config",
+  "frontendBundleOutput": "C:\\Documenti\\UniBG\\Tesi\\BREATHE\\breathe.web\\target\\classes\\META-INF\\VAADIN\\webapp",
+  "devBundleOutput": "C:/Documenti/UniBG/Tesi/BREATHE/breathe.web/target/dev-bundle/webapp",
+  "devBundleStatsOutput": "C:/Documenti/UniBG/Tesi/BREATHE/breathe.web/target/dev-bundle/config",
+  "jarResourcesFolder": "C:/Documenti/UniBG/Tesi/BREATHE/breathe.web/./src/main/frontend/generated/jar-resources",
+  "themeName": "my-theme",
+  "clientServiceWorkerSource": "C:\\Documenti\\UniBG\\Tesi\\BREATHE\\breathe.web\\target\\sw.ts",
+  "pwaEnabled": true,
+  "offlineEnabled": true,
+  "offlinePath": "'.'"
+}

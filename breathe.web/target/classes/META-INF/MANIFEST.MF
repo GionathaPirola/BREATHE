@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Build-Jdk-Spec: 17
+Implementation-Title: Project base for Spring Boot and Vaadin Flow
+Implementation-Version: 1.0-SNAPSHOT
+Created-By: Maven Integration for Eclipse
+

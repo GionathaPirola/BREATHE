@@ -6,7 +6,7 @@ import panels.MiniLogPanel;
 
 public class MyListener extends LogListener
 {
-  protected MyListener()
+  public MyListener()
   {
     super();
     // Since we are just pushing this data into the log
@@ -29,7 +29,7 @@ public class MyListener extends LogListener
   @Override
   public void handleWarn(String msg)  {  }
   @Override
-  public void handleError(String msg) {  }
+  public void handleError(String msg) { MiniLogPanel.append("aaaaa"); }
   @Override
   public void handleFatal(String msg) { MiniLogPanel.append(msg); }
 }

@@ -36,6 +36,7 @@ import com.kitware.pulse.engine.PulseEngine;
 import com.kitware.pulse.utilities.Log;
 
 import panels.MiniLogPanel;
+import utils.MyListener;
 import zeroMQ.ZeroServer;
 
 
@@ -93,6 +94,7 @@ public class SimulationWorker extends SwingWorker<Void, String> {
         
         // Initialize JNIBridge and PulseEngine
         pe = new PulseEngine();
+        pe.setLogListener(new MyListener());
         stime = new SEScalarTime(0, TimeUnit.s);
         
         // Creation of Data Request
